@@ -10,17 +10,14 @@ TODO:  Change these things along with:
   - favicon.ico in /public
  */
 const font = Karla({ weight: '400', subsets: ['latin']})
-const title = 'Luke\'s Site';
+const title = 'Lumi\'s Site';
 const description = 'This my personal site';
 const links = [
-  {title: 'Pokemon', href: '/pokemon'},
-  {title: 'Rick and Morty', href: '/rick-and-morty'}
+  {title: 'Cats', href: 'https://cat-bounce.com/'},
+  {title: 'Cats', href: 'https://en.wikipedia.org/wiki/Cats_(2019_film)'}
 ];
 const SocialLinks = {
-  twitter: 'https://x.com/dunscombe_luke',
-  github: '#github',
-  instagram: '#insta',
-  email: 'mailto:ldunscombe@leantechniques.com'
+  email: 'mailto:ldunscombe+hifromlumi@leantechniques.com'
 }
 
 export const metadata: Metadata = {
